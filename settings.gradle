@@ -1,0 +1,1 @@
+include ':app', ':activitytask_01', ':activitytask_02', ':activitytask_03', ':activitytask_04', ':aidl', ':notificationtest'

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApptest2018.iml" filepath="$PROJECT_DIR$/MyApptest2018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitytask_01/activitytask_01.iml" filepath="$PROJECT_DIR$/activitytask_01/activitytask_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitytask_02/activitytask_02.iml" filepath="$PROJECT_DIR$/activitytask_02/activitytask_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitytask_03/activitytask_03.iml" filepath="$PROJECT_DIR$/activitytask_03/activitytask_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitytask_04/activitytask_04.iml" filepath="$PROJECT_DIR$/activitytask_04/activitytask_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidl/aidl.iml" filepath="$PROJECT_DIR$/aidl/aidl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notificationtest/notificationtest.iml" filepath="$PROJECT_DIR$/notificationtest/notificationtest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zejian.notificationtest">
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".notification.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DemoActivity"/>
+        <activity android:name=".notification.ImageActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".notification.SettingsActivity"/>
+        <service android:name=".notification.DownloadService"/>
+        <service android:name=".notification.MediaService"/>
+
+        <receiver android:name=".appwidget.MyAppWidgetProvider">
+
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_provider_info"
+                />
+
+            <intent-filter >
+                <action android:name="com.zejian.action.CLICK" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+        </receiver>
+    </application>
+
+</manifest>
